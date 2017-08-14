@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* NOTE: CSS FOR HEADER */
+header {
+  display: flex;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  z-index: 5;
+  background-color: black;
+}
+
+header img {
+  padding-left: 10px;
+  height: 50px;
+}
+
+header nav {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+header span {
+  margin: auto 20px;
+}
+
+header nav a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+main {
+  position: relative;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* NOTE: CSS FOR MISSION */
+
+.mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url(./img-mission-background.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.missiontitle {
+  background-color: black;
+  width: 100%;
+}
+
+/* NOTE: CSS FOR TEA SECTION */
+
+.tea {
+  width: 1000px;
+  padding-top: 80px;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.choice img {
+  height: 200px;
+  width: 300px;
+}
+
+.choice span {
+  padding: 10px;
+}
+
+.choice {
+  display: flex;
+  flex-direction: column;
+  margin: auto 15px;
+}
+
+/* NOTE: CSS FOR LOCATIONS SECTION */
+
+.locations {
+  height: 500px;
+  width: 1200px;
+  padding-top: 30px;
+  background-image: url(./img-locations-background.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.locationtitle {
+  padding-bottom: 15px;
+}
+
+.locationcontent {
+  display: flex;
+  justify-content: space-between;
+  width: 980px;
+}
+
+.location {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  opacity: 1;
+}
+
+.location h3 {
+  margin: 0;
+}
+
+.contact {
+  padding-bottom: 30px;
+}
+
+/* NOTE: CSS FOR FOOTER */
+
+footer {
+  text-align: left;
+  display: block;
+}
